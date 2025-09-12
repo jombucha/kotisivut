@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasvun siemenet, kasvatusaiheinen blogi</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>html {
+     cursor: url('data:image/x-icon;base64,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'), auto;
+    }
+    :hover {
+     cursor: url('data:image/x-icon;base64,AAACAAEAICACAAAAAAAwAQAAFgAAACgAAAAgAAAAQAAAAAEAAQAAAAAAgAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB/AAAA/4AAAYDAAAM+YAAHf2AAB39gAAf/4AAHnOAAB5zgAAec4AAH/8AAA/+AAAH/AAAAfAAAAAAAAA//////////////////////////////////////////////////////////////////////////////////////AH///gA///wAH//4AA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAB//+AA///wAf///Af//8='), auto;
+    }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1><a href="../index.html">Kasvun siemenet, kasvatusaiheinen blogi</a></h1>
+
+    </header>
+
+    <main>
+        <h2>Runo tai runoelma rakkaudesta</h2>
+        <p><i>Kirjoittanut Joni Joentakanen, 22.1.2025</i></p>        
+        <p>
+Olemme laaksossa saavuttamattoman vuoren juurella,
+        <br>
+näköalattomassa erämaassa –<br>
+voi, kunpa tajuaisin tuon,<br>
+miten rakastamisesi onkin yksi suuri harhakudelma!<br>
+Lihaisten kutsumusteni päättymätön piirileikki,<br>
+elimissä virtaavan voiman ankara kutsu toimeen ja<br>
+tahdon kukistaneen fanfaari hekumain halleissa!<br>
+Tuo pinta-alojemme kohtaaminen,<br>
+yhteen hetkittäin kiertyminen,<br>
+himoistamme virkattu ryijy <br>autuaan odotuksen todistajana,<br>
+johon kääriydymme olemisen kauhujen syvinä hetkinä.<br><br>
+
+Se on ehtyvä virta, <br>jota etsin aina vain uudesta notkelmasta,<br>
+kuitenkin ainaisen janon se osakseni jättää,<br>
+kuin valheellinen vesi, se rohduttaa sisukseni lopulta,<br>
+nuo kahleet, joiden avainta en sinusta voi löytää.<br>
+Silti minä palvon kuvaasi: se koristaa huoneeni seinää –<br>
+silti se on raastava hallusinaatio,<br> jota en saata ylittää ylittämättä
+itseäni!<br>
+Korruptoituneeseen kohteeseen napanuorittuneisuus<br>
+on katkaistava,<br>
+lonkeron laajettava lävitse lähimmäisen silmukan,<br>
+osuttava suoraan pintakerrostumien ohi keskukseen,<br>
+paikkaan, jossa ehdollistumien liike on pysähtynyt.<br><br>
+
+Löydän asuinsijani sydämistänne ja niiden takaakin,<br>
+lämmitän luontojenne tulipesiä ja<br>
+autan kitkemään puutarhojen rikkaruohot.<br>
+Ryhdyn talonmieheksi yhteisyyden kivijalkaan;<br>
+lumenluonti ja vuotojen paikkaaminen<br>
+muodostuvat rakkauteni hahmoksi ja minä siksi.<br>
+Jatkuvasti ylitän itseni rajat ja<br>
+pinta-alani ottaa osaa armolliseen muodonmuutokseen,<br>
+lähden tästä erillisyyttä täynnä olevasta erämaasta<br>
+vuorta kapuamaan ja näen pidemmälle.<br>
+Meitä on niin monta rakastettavaa,<br>
+niin monta luontoa, jota hellästi koskettaa,<br>
+jokainen meistä fraktaalimaisessa liikkeessä,<br>
+kävyn lailla täydellistä luontoaan kohti<br>
+alati kehkeytymässä.<br><br>
+
+Rakastamisesi minua tuskin kovin hyödyttää,<br>
+kuitenkin sopimus on allekirjoitettu ja työ hyvin tehtävä,<br>
+yhteisen laulun sanat löydettävä!<br>
+Ei enää egotismia à deux, vaan<br>
+ihmisyyden suuri suutelemisprojekti toiminnan<br>
+ilmentymänä;<br>
+ymmärrän sen olevan vastaus olemassaolon kauhuun ja<br>
+kasvatan juuret aina maaperämme pohjavesiin saakka.<br><br>
+
+En näe enää itseäni peilistä,<br>
+en sinua kuvajaisestasi,<br>
+silti koen meidän olevan enemmän<br>
+kuin olisimme koskaan voineet olla.<br>
+Järjelle ei tässä seurapiirissä ole sijaa;<br>
+näillä kutsuilla vain kokemus löytää paikkansa,<br>
+rakkauden kiertyessä liikkeeksi<br>
+sydämentemme ympärille.<br><br>
+
+Saavutamme tuota huippua,<br>
+jota kohti sokeina kirkkaudessa hapuilimme,<br>
+korkeammalle kavutessamme näkö edelleen kehittyy,<br>
+likinäköisyys paranee ja katse kohdistuu meistä<br>
+kaikkialliseen rakastajattareen, jonka nimi on ei-nimi,<br>
+jota kutsutaan ei-keneksikään.<br><br>
+
+Pilvien yläpuolella auringon näkee aina;<br>
+ei sadepäivät, ei ihmiselon maallinen tuska<br>
+rakkauden pyrkimystä paina,<br>
+kun äitimme lovi on edessämme ja<br>
+tehtävämme ainaista lankeamista ja paluuta,<br>
+yhden laulun sulosoinnun muistaen,<br>
+kaikkialliset luonnot fraktaaliliikkeissään täydellistyvät;<br>
+se on prosessi täynnä kompastumista matkalla taivaaseen,<br>
+paratiisin paluuehto ja Eeden-tietoisuus sydämessä.<br><br>
+
+Näin minä kohoan jatkuvasti<br>
+kohti taivasta, kohti maanpintaa,<br>
+näin minä katoan jatkuvasti<br>
+ja olen rakkaudesta syntyvä uudelleen.<br><br><br>
+
+
+    </main>
+
+    <footer>
+        
+        <a href="../index.html">← Etusivulle</a>
+        <p>&copy; 2025 Joni Joentakanen</p>
+        <br>
+        <br>
+    </footer>
+
+</body>
+</html>

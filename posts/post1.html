@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varhaiskasvattaja lapsen turvallisen kiintymyssuhteen tukijana</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>html {
+     cursor: url('data:image/x-icon;base64,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'), auto;
+    }
+    :hover {
+     cursor: url('data:image/x-icon;base64,AAACAAEAICACAAAAAAAwAQAAFgAAACgAAAAgAAAAQAAAAAEAAQAAAAAAgAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB/AAAA/4AAAYDAAAM+YAAHf2AAB39gAAf/4AAHnOAAB5zgAAec4AAH/8AAA/+AAAH/AAAAfAAAAAAAAA//////////////////////////////////////////////////////////////////////////////////////AH///gA///wAH//4AA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAB//+AA///wAf///Af//8='), auto;
+    }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1><a href="../index.html">Kasvun siemenet, kasvatusaiheinen blogi</a></h1>
+        
+
+    </header>
+
+    <main>
+        <h2>Varhaiskasvattaja lapsen turvallisen kiintymyssuhteen tukijana</h2>
+
+<p><i>Kirjoittanut Joni Joentakanen, 16.10.2024</i></p>        
+
+<b>Velvollisuutemme on luoda lapsille paras mahdollinen perusta</b>        
+</p>
+<p>Osallistuin lauantaina sokraattiseen dialogiin merkityksellisestä opettamisesta. Dialogin järjesti filosofisen praktiikan opintojen lopputyönään henkilö, joka on toiminut myös elämänkatsomuksen ja uskonnon opettajana lukiossa. Dialogissa pohdimme yhteistuumin niitä tekijöitä, jotka tekevät opettamisesta merkityksellistä. Yksi minulle keskeinen esiin noussut osatekijä oli pyrkimys toimia kasvatettavan suojelijana. Vaikka tämä suojelijuus voi pitää sisällään monia tärkeitä asioita, haluaisin pohtia tässä kirjoituksessa varhaiskasvattajan mahdollisuuksia tukea kasvatettavan turvallisen kiintymyssuhteen rakentumista ja varhaislapsuuden traumatisaation ehkäisemistä. Tiedämme, että varhaislapsuuden traumatisaatio saa aikaan kauaskantoisia kielteisiä seurauksia yksilön elämässä terveydestä sosiaalisiin suhteisiin ja tunnesäätelyn vaikeuksiin (Van der Kolk, 2003). Koska maailma on ajautumassa, tai jopa jo ajautunut, monimutkaiseen ja vakavaan ilmastokatastrofiin (Ripple ym., 2024), tulee nyt kasvavalle sukupolvelle antaa mahdollisimman hyvät eväät pärjätä heidän perimässään monikriisiytyneessä maailmassa. Tämä tosiasia huomioiden olisikin ehdottoman tärkeää, että mm. lasten stressinsäätelyjärjestelmän kehitys ja kyky tukea muita ihmisiä ja tukeutua heihin hädän hetkellä eivät vaarantuisi. Jos me aikuiset emme osaa kollektiivisesti muuttaa toimintaamme vastuullisemmaksi riittävän nopeasti, on meillä mielestämme vähimmäisvastuu tukea lapsiamme selviytymään aiheuttamamme graavin sotkun keskellä. Koska edellä mainitut järjestelmät ja taidot kehittyvät osana ihmisen varhaisia kiintymyssuhteita, niiden tukemisen tulisi olla varhaiskasvatuksen keskiössä.
+</p>
+<b>Varhaislapsuuden traumatisaatio seuraa pitkälle tulevaan</b>        
+</p>
+Välivaaran (2010) mukaan sosioekonomiset erot ja siitä kumpuavat perheiden ongelmat johtavat siihen, että lapsi altistuu herkemmin traumaattisille kokemuksille, mm. vanhempien päihteiden käytölle, mielenterveysongelmille tai väkivaltaisuudelle. Sinkkonen (2012, s. 253) jatkaa, että vakava varhainen traumatisoituminen ja hoidossa ilmenevät pitkäkestoiset laiminlyönnit johtavat moninaisiin, myöhemmin elämässä vaikeasti hoidettaviin ongelmiin. Lapsen elämän kulku ja myöhemmät ongelmat voivat siis saada alkunsa jo varhaislapsuudessa. Ahlströmin (2015, s. 185) mukaan trauma on kauhun sisältämä elämänkokemus, jota henkilö ei kykene yhdistämään osaksi sisäistä järjestelmäänsä, ja joka tämän seurauksena rikkoo kyseisen järjestelmän. Tilanteet, joissa kauhun lähteenä on lapsen kannalta keskeinen kiintymyssuhdeobjekti, kuten jompikumpi vanhemmista, synnyttävät kiintymyssuhdetraumatisaatiota (Ahlström, 2015, s. 185). Ahlström (2015, s. 185) tunnistaa kaksi traumatisaation muotoa: tapahtumatrauman ja vuorovaikutuksellisen trauman. Tapahtumatrauma liittyy nimensä mukaisesti yhteen traumaattiseen tapahtumaan, esimerkiksi seksuaaliseen hyväksikäyttöön tai fyysiseen pahoinpitelyyn (Ahlström, 2015, s. 185). Vuorovaikutuksellinen traumatisoituminen taas on seurausta puuttuvasta tunteiden säätelystä lapsen ja vanhemman välillä (Ahlström, 2015, s. 186). Myllyviita (2021, s. 48) kuvaakin turvallista kiintymyssuhdetta toimivan tunteiden säätelyn ja positiivsen minäkäsityksen perustaksi. Turvallisen kiintymyksen keskeisin edellytys on ennustettava, johdonmukaista toimintaa sisältävä ympäristö, jossa lapsi voi luottaa saavansa vanhemmalta tukea hädän ja voimakkaan tunnetilan keskellä (Myllyviita, 2021, s. 48). Jos lapsi jää jatkuvasti yksin vaikeiden kokemustensa kanssa, eikä saa ensisijaiselta kiintymyssuhdeobjektiltaan adekvaattia vastausta niihin liittyviin avunpyyntöihinsä, ei hän voi luottaa saavansa apua muilta ihmisiltä hädän hetkellä tulevaisuudessa. Näistä kokemuksista lapselle rakentuu työskentelymalleja, eli tiedostamattomia psyykkisiä rakenteita, siitä, miten maailma ja ihmissuhteet toimivat (Sinkkonen, 2004).
+</p>
+<b>Varhaissuhteissaan vaurioituneen lapsen tukeminen</b>        
+</p>
+Miten varhaiskasvattaja voisi esimerkiksi päiväkodissa tukea lasta, joka ei ole saanut kotona tukea turvallisen kiintymyssuhteen kehittymiseen? Koska Forkey ym. (2021) esittävät, että lapsen kehityksen kannalta keskeistä olisi turvallinen suhde luotettavaan, pysyvään ja hoivaavaan aikuiseen, voisi varhaiskasvatuksen henkilöstön olla hyvä lähteä näistä ominaisuuksista liikkeelle. Varhaiskasvattajan tulisi kyetä olemaan lapselle turvan, ei uhan, lähde. Kiintymyssuhteessaan traumatisoituneen lapsen kokemusmaailma ja ulosanti saattavat kuitenkin näyttäytyä oudolta varhaiskasvattajalle (Välivaara, 2010), sillä hänellä voi olla merkittäviä sosiaalis-emotionaalisia ja kognitiivisia haasteita (Saarinen, 2021, s. 17). Lapsen traumatisaatiosta johtuvat haasteet mm. tunteiden säätelyssä johtavatkin helposti ei-toivottuun käytökseen päiväkodissa, jota henkilökunta yrittää hallita. Kokemukseni mukaan tätä lapsen hallintaa tehdään kuitenkin usein tavoilla, jotka ovat omiaan lisäämään lapsen turvattomuutta (mm. huutaminen, nolaaminen muiden edessä tai lapsen pitäminen paikallaan). Tämä lasten käyttäytymistä säätelevä kontrollointi ei kuitenkaan korjaa aikuselta näkymättömiin jäävää juurisyytä eli lapsen kyvyttömyyttä säädellä omaa kokemustaan ja löytää turvaa hoivaavista aikuisista. Lapsen aggressiivinen käyttäytyminen voi olla myös pyrkimys saada aikuisen huomio ja lohdutusta (Saarinen, 2021, s. 17). Ratkaisuna mm. kiintymyssuhteissaan traumatisoituneiden lasten tukemiseen Brunzell ym. (2016) ehdottavat kolmijakoista traumatietoisen positiivisen kasvatuksen mallia, joka koostuu säätelytaitojen korjaamisesta, suhdekykyjen korjaamisesta ja psykologisten voimavarojen lisäämisestä. Säätelytaitojen korjaamisessa keskitytään auttamaan lasta tunnistamaan, ymmärtämään ja säätelemään omia sisäisiä kokemuksiaan. Lasta voidaan auttaa mm. ohjaamalla häntä tunnistamaan kehossaan ilmeneviä fyysisiä tuntemuksia hänelle abstraktien tunnekonseptien sijaan. Avuksi tässä voivat olla myös tietoisuustaitojen harjoitteleminen ja ennustettavuuden ja toisteisuuden toteutumisen tukeminen osana kasvatusympäristöä. Ennustettavuus on tärkeää, sillä traumatisoituneiden lasten kyky sietää tuntematonta on heikompi kuin muiden lasten. Suhdekykyjen korjaantumista tukevat kirjoittajien mukaan vahvat kiintymyssuhteet, tunneälykkyys sekä leikki ja hauskanpito. Psykologisten voimavarojen lisäämiseen kuuluu viisi osa-aluetta: positiiviset tunteet, positiivinen osallistuminen, positiiviset suhteet, positiivinen tarkoitus ja positiivinen saavutus. Näiden psykologisten voimavarojen tukemisen tausta-ajatuksena on ruokkia lapsen kokemuksessa myönteisiä samaistumispintoja maailmasta ja itsestään. Ne voivat olla esimerkiksi kirjoissa esiintyviä sankareita, onnistumisen kokemuksia leikeissä tai kuulumista ryhmään ja osallistumista sen toimintaan. (Brunzell ym., 2016.)
+</p><b>Rakkaus ja vastuumme Toisesta</b>        
+</p>
+Olisi kuitenkin tärkeää, ettei traumatisoituneita ja sen seurauksien kanssa tukea tarvitsevia lapsia asetettaisi uhrin lokeroon, vaan että heitä tarkasteltaisiin kokonaisina Toisina (Vericat Rocha & Ruitenberg, 2019). Minkä tahansa viitekehyksen vakiinnuttaminen osaksi tapaamme katsoa maailmaa voi heikentää kykyämme nähdä se ja muut olennot sellaisina kuin ne todella ovat. Traumatisoituneet lapset eivät ole kiintymyssuhdetraumatisaation diagnostisten kriteerien listaus. Kuten Tuohimaa (2001, s. 37) kuvaileekin Emmanuel Levinasin filosofiaan pohjaten, Minän ja Toisen välinen suhde on aina epäsymmetrinen; Minällä ei voi koskaan olla lopullista tietoa Toisesta, minkä seurauksena Toinen on aina enemmän kuin mitä Minä voi käsittää. Levinasin mukaan olemme vastuussa toisesta, heti kun hän katsoo meitä. Siispä vastuullisuus on ensimmäinen ja kaikista perustavin suhde Toiseen ihmiseen. Levinasin sanoin ”inhimillinen elämä herää huomatessaan toisen, toisin sanoen se on jatkuvassa heräämisen tilassa”. (Tuohimaa, 2001.) Mitä varhaiskasvatuksen opettajuus sitten merkitsee? Levinasilaisittain ajateltuna varhaiskasvatuksen opettajan tehtäväksi jää, kaikkien muiden ylevien päämäärien rinnalla, olla jatkuvassa heräämisen tilassa ja tulla tietoiseksi Toisesta. Hän tiedostaa vastuunsa Toisesta ja suojelee ja huolehtii hänestä tiedostaen hänen haurautensa ja kuolevaisuutensa (Tuohimaa, 2001, s. 38). Levinasin mukaan ”rakkaus on avautumista Toisen toiseudelle, jossa Minä tulee tietoiseksi vastuustaan Toisesta” (Tuohimaa, 2001, s. 38). Tuntiessani vastuuni Toisesta tulee hänestä minulle läheisempi. Lähentyessäni tuon Toisen kanssa, voin palvella häntä paremmin, olivat hänen lähtökohtansa sitten mitkä tahansa.  
+</p>
+<b>Kirjallisuus</b>
+</p>
+Ahlström, N. (2015). Kiintymyssuhteen merkitys trauman siirtymisessä yli sukupolvien. Teoksessa A. Suokas-Cunliffe (toim.), Häpeästä myötätuntoon. Näkökulmia vakavaan traumatisoitumiseen (s. 184–215). Helsinki: Traumaterapiakeskus ry.
+</p>
+Brunzell, T., Stokes, H., & Waters, L. (2016). Trauma-informed positive education: Using positive psychology to strengthen vulnerable students. Contemporary School Psychology, 20, 63-83. https://doi.org/10.1007/s40688-015-0070-x
+</p>
+Forkey, H., Szilagyi, M., Kelly, E. T., & Duffee, J. (2021). Trauma-informed care. Pediatrics, 148(2). https://doi.org/10.1542/peds.2021-052580
+</p>
+Myllyviita, K. (2021). Häpeän hoito. Helsinki: Duodecim.
+</p>
+Ripple, W. J., Wolf, C., Gregg, J. W., Rockström, J., Mann, M. E., Oreskes, N., … & Crowther, T. W. (2024). The 2024 state of the climate report: Perilous times on planet Earth. BioScience, biae087. https://doi.org/10.1093/biosci/biae087
+</p>
+Saarinen, R. (2021). Turvattomassa kiintymyssuhteessa traumatisoituneen lapsen tukeminen päiväkodissa. Kasvatustieteen kandidaatintutkielma, Oulun yliopisto.
+</p>
+Sinkkonen, J. (2012). Kiintymyssuhteen häiriöiden yhteydet psykopatologiaan. Teoksessa J. Sinkkonen, & M. Kalland (toim.), Varhaislapsuuden tunnesiteet ja niiden suojeleminen (s. 245–270). WSOY.
+</p>
+Sinkkonen, J. (2004). Kiintymyssuhdeteoria – tutkimuslöydöksistä käytännön sovelluksiin. Duodecim, 120(15), 1866–1873. 
+</p>
+Tuohimaa, M. (2001). Emmanuel Levinas ja vastuu toisesta. Niin & näin, 3(2001), 35-39.
+</p>
+Van der Kolk, B. A. (2003). The neurobiology of childhood trauma and abuse. Child and Adolescent Psychiatric Clinics, 12(2), 293-317.
+</p>
+Vericat Rocha, Á. M., & Ruitenberg, C. W. (2019). Trauma-informed practices in early childhood education: Contributions, limitations and ethical considerations. Global studies of childhood, 9(2), 132-144. https://doi.org/10.1177/2043610619846319
+</p>
+Välivaara, C. (2010). Ihmeet tapahtuvat arjessa – kiintymyssuhteissaan traumatisoituneiden lasten tukeminen varhaiskasvatuksessa. Luettu 15.10.2024.</p>
+</p>
+
+<img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3bTk0cWw1MGZ4YnZ4NHQ4MjN3Y2UxejV0bTBmYnhxY3V3ZmZ1c2k5cSZlcD12MV9zdGlja2Vyc19yZWxhdGVkJmN0PXM/SA6809R4uyd3vFswu3/giphy.gif" alt="joni" width="300" height="300"/>
+</main>
+
+    <footer>
+        <h3>Muita kirjoituksia</h3>
+        <ul>
+
+            <li><a href="post2.html">Varhaiskasvatuksen opettajuus tänään ja huomenna</a></li>
+            <li><a href="post3.html">Tasa-arvo ja yhdenvertaisuus yksityistyvässä varhaiskasvatuksessa</a></li>
+            <li><a href="post4.html">Ekososiaalinen kasvatus vastauksena antroposeenin haasteisiin</a></li>
+        </ul>
+        <a href="../index.html">← Etusivulle</a>
+        <p>&copy; 2025 Joni Joentakanen</p>
+        <br>
+        <br>
+    </footer>
+
+</body>
+</html>

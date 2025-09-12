@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varhaiskasvatuksen opettajuus tänään ja huomenna</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>html {
+     cursor: url('data:image/x-icon;base64,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'), auto;
+    }
+    :hover {
+     cursor: url('data:image/x-icon;base64,AAACAAEAICACAAAAAAAwAQAAFgAAACgAAAAgAAAAQAAAAAEAAQAAAAAAgAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB/AAAA/4AAAYDAAAM+YAAHf2AAB39gAAf/4AAHnOAAB5zgAAec4AAH/8AAA/+AAAH/AAAAfAAAAAAAAA//////////////////////////////////////////////////////////////////////////////////////AH///gA///wAH//4AA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAB//+AA///wAf///Af//8='), auto;
+    }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1><a href="../index.html">Kasvun siemenet, kasvatusaiheinen blogi</a></h1>
+
+    </header>
+
+    <main>
+        <h2>Varhaiskasvatuksen opettajuus tänään ja huomenna</h2>
+        <p><i>Kirjoittanut Joni Joentakanen, 24.1.2025</i></p>        
+        <p>Tarkastelen tässä esseessä varhaiskasvatuksen opettajuutta ja opettajuutta ensin hieman laajemmasta, filosofisesta näkökulmasta. Tämän jälkeen siirryn tarkastelemaan sitä suhteessa nykypäivän ilmiöihin ja kohtaamiimme haasteisiin.
+</p>
+
+<p><b>Mitä merkitsee olla opettaja?</b></p>
+
+”Ihmisen korkein pyrkimys on olla viisas. Se on ihmisen itseyden korkein saavutus. Kaksinkertaista viisautta on kasvattaa itseään ja toisia tietoisesti, vapaasti ja itsenäisesti” (Fröbel, 2014). Näin toteaa magnum opuksessaan suomalaisen kasvatusajattelun suurvaikuttajiin kuuluva saksalainen pedagogi Friedrich Fröbel. Varhaiskasvatuksen opettajan keskeisiä pyrkimyksiä voisikin ajatella olevan viisauteen kasvaminen itse ja viisauden pohjalta tietoisen kasvatustyön toteuttaminen. Vielä muinaisempi ajattelija, Aristoteles, oli pitkälti samaa mieltä: hän piti lapsen tutustuttamista hyveisiin ja niiden käytön harjaannuttamista kasvatuksen keskeisenä tavoitteena (Huttunen & Kakkori, 2007, s. 92). Näitä hyveitä Aristoteleen mukaan ovat mm. rohkeus, kohtuullisuus, oikeudenmukaisuus, avoinmielisyys, rehellisyys, ystävällisyys, arvokkuus, suurisieluisuus sekä viisaus (Huttunen & Kakkori, 2007, s. 89). Hyveitä ei olla kuitenkaan käsitelty opetussuunnitelmissa eksplisiittisesti 1970-luvun jälkeen, koska niiden ajateltiin edustavan vanhanaikaisuutta ja paternalismia (Poulter & Kylliäinen, 2023, s. 121). Tästä huolimatta ne ovat edelleen ajankohtaisia ja Varhaiskasvatussuunnitelman perusteissa (2022, s. 22) todetaankin varhaiskasvatushenkilöstön tehtäväksi tukea ”lasten kasvua ihmisyyteen, jota kuvaa pyrkimys totuuteen, hyvyyteen ja kauneuteen sekä oikeudenmukaisuuteen ja rauhaan” (Poulter & Kylliäinen, 2023, s. 121).</p>
+
+<p><b>Kasvatuksellisen hyvän paradoksi</b></p>
+Värri (2007, s. 70–71) kiteyttää kasvatuksen tärkeimmän tehtävän olevan ihmisen sivistäminen moraalisubjektiksi – tämän ytimessä on yksilön ja yhteiskunnan hyvän yhteensovittaminen. Jotta varhaiskasvatuksen opettajan on mahdollista tukea lapsen hyveisiin kasvamista, tulee hänen itsensäkin olla niissä harjaantunut. Toisaalta tähän pyrkimykseen sisältyy paradoksi, sillä me emme voi koskaan täydellisesti tietää, mitä hyvä on (Värri, 2002a, s. 27). Silti olemme varhaiskasvatuksen opettajina vastuussa lasten kasvattamisesta kohti hyvää elämää. Kasvatusideaalien summittaisuudesta huolimatta varhaiskasvatuksen opettajalla voi olla kuitenkin käsitys hyvään johtavista toimista ja menetelmistä – siis aristotelisessa mielessä hän omaa käytännöllistä järkeä (Värri, 2002a, s. 28). Vastaus kasvatusideaalien ja hyvän edistämiseen kussakin kasvatustilanteessa ilmenee kasvattajan käytännöllisen järjen muodostaman kokonaisarvion pohjalta – näin hän puntaroi, että millainen toiminta johtaa todennäköisimmin suurimpaan kasvatukselliseen hyvään (Värri, 2002a, s. 28). </p>
+<p><b>Hyväntahtoisuus, henkilökohtainen kasvu ja pedagoginen rakkaus</b></p>
+Pulkki (2017, s. 99) pitääkin kasvatuksen yhtenä tärkeimpänä päämääränä hyväntahtoisuutta – toisin sanoen kasvattajan aktiivista pyrkimystä hyvän aikaansaamiseen ympäristössään. Tämän pyrkimyksen voi nähdä olevan yhteydessä pedagogiseen rakkauteen, joka on ”kutsimuksellinen tunne, jota omistautunut opettaja tuntee oppilaitaan kohtaan ketään syrjimättä” (Huttunen & Kakkori, 2007, s. 92). Pedagogiselle rakkaudelle keskeisiä rakkauden muotoja sen klassisista määritelmistä ovat <i>philia</i>, eli rakastava ystävyys, ja <i>agape</i>, eli pyyteetön, altruistinen rakkaus ihmisen henkistä ydinolemusta kohtaan (Skinnari, 2004, s. 158). Olemme tottuneet ajattelemaan rakkautta tunteena, erityisesti romanttisena sellaisena. Pedagogisessa rakkaudessa on kuitenkin kyse kasvattajan syvällisestä tahdosta ja pyrkimyksestä oivaltaa kasvatettavan ainutlaatuisuus jokapäiväisessä elämässä tapahtuvan dialogisen kohtaamisen tuloksena (Skinnari, 2004, s. 158). Skinnarin (2004, s. 159) mukaan pedagogisessa rakkaudessa kasvamisessa on kyse ennen kaikkea kasvattajan itsekasvatuksellisesta prosessista. Kasvattajan oivaltaessaan oman ainutlaatuisen täydellisyytensä hänen omien pintakerrostumiensa takana, kykenee hän tarjoamaan myös kasvatettavalleen tuomitsemattoman läsnäolon, ainutlaatuisuuden tunnustuksen sekä hyväntahtoisen pyrkimyksen. Näin ollen varhaiskasvatuksen opettajuuden keskiössä on syvällinen pyrkimys ihmisenä kasvamiseen. </p>
+
+<B>Varhaiskasvatuksen opettajuuden erityisvaateet tänään ja huomenna</B></p>
+
+Nykyaika asettaa varhaiskasvatuksen opettajalle merkittäviä haasteita kasvatustehtävän kunnialliselle toteuttamiselle. Muun muassa alati kasvavat ja monenlaisia kultturitaustoja edustavat lapsiryhmät, vaihtuvat, mahdollisesti epäpätevät työntekijät sekä toiminnan tehostamispaineet voivat tehdä laadukkaan pedagogiikan toteuttamisesta vain kaukaisen haaveen. Aikamme merkittävin haaste lienee kuitenkin vääjäämättömältä vaikuttava ekologinen katastrofi, jonka reunalla jo olemme (Ripple ym., 2024, s. 812). Koska kyseessä on niin käsittämättömän suuri ilmiö, on mielestäni itsestään selvää, että se tulisi ottaa huomioon myös varhaiskasvatuksen opettajan työtä pohtiessa. Värri (2018, s. 107–108) vaatiikin kasvatusyhteisöjä irtisanoutumaan ”tuhoon johtavasta edistyksen ideologiasta” ja siirtymään sen sijaan tavoittelemaan ekologista viisautta. Tämä ei kuitenkaan ole millään tavoin helppo tehtävä, sillä varhaiskasvatuksenkin tavoitteet määritellään ideologisen hegemonian piirissä (Värri, 2018, s. 108), jonka sisältöä määrittävät mm. OECD:n kaltaiset, suuryritysten tukemat, ylikansalliset järjestöt (Värri, 2018, s. 48). Eräs tuore esimerkki vallitsevan kehitys- ja markkinaideologian vaikutuksesta varhaiskasvatukseen on Yhdysvalloissa, Englannissa ja Virossa toteutettu nk. pienten lasten Pisa-testi, jossa mitattiin viisivuotiaiden lasten luku- ja laskutaitoa, itsesäätelykykyä sekä tunne- ja sosiaalisia taitoja (Childhood Education International, 2017). Suomessa taas on viime vuosina toteutettu kaksivuotisen esiopetuksen kokeilu, jossa on pyritty muun muassa tukemaan lasten oppimisvalmiuksia. Vaikka tällaiset taidot voi nähdä itsessään arvokkaina, on kuitenkin helppoa nähdä ne taloudellisesti tuottavan ihanteellisen ihmisyksilön rakennusaineina. Värri (2002b, s, 98) kuvaakin tällaista henkisten kykyjen kehittämiseen ja niiden joustavuuteen perustuvaa ajan henkeä termillä <i>psykokapitalismi</i>. Muuta yhteiskuntaa kokonaisvaltaisesti määrittävän kilpailun ja kehittymisen eetoksen voi nähdä laajentuvan tällaisten kokeilujen ja kehityskulkujen kautta myös osaksi varhaiskasvatusta ja pienten lasten maailmaa. Lasten kasvattaminen ihmis- ja maailmakäsitykseen, joka syö paraikaa pohjaa heidän hyvän elämän edellytyksiltä, on lievästi sanottuna irvokasta.
+</p>
+
+<p><b>Polkuja kohti kestävää kasvatustyötä</b></p>
+Varhaiskasvatuksen opettajan vastuu nykyaikana onkin nähdäkseni puolustaa lapsia tällaisen ideologian uusintamiselta ja auttaa heitä pienestä pitäen kasvamaan kohti inhimillisen ja ei-inhimillisen elämän edellytykset turvaavaa ihmisyyttä. Eräs tällaiseen pyrkimykseen soveltuva kasvatuksellinen viitekehys voisi olla ekososiaalinen kasvatus (Keto ym., 2022). Ekososiaalinen kasvatusajattelu laajentaa kahta kasvatuksen ydintehtävää, individuaatiota ja sosialisaatiota, ottamaan huomioon myös monilajisen yhteisön, jonka osa mekin ihmisinä olemme. Ekososialisaation osana ihminen siis kasvaa käsittämään itsensä välittömän ihmisyhteisönsä lisäksi osana monilajista eli ekososiaalista yhteisöä. Tämän ajattelun mukaisesti tuetaan hänen kokonaisvaltaista, kehollista maailmaan osallistumista sekä empaattisten ja myönteisten vuorovaikutussuhteiden muodostamista muidenkin kuin ihmiseliöiden kanssa. (Keto ym., 2022, s. 54.) Ekoindividuaatio taas korostaa vastuullisen itseyden kehittymisen tukemista. Käsite ekoindividuaatio on tavallaan ristiriitainen käsite, sillä yksilön kasvun ja itseytymiskehityksen tukemisesta huolimatta se suhtautuu individualismiin kriittisesti. Ekoindividuaatiossa keskeistä on ihmisen  moraaliseen vastuuseen heräämisen prosessi ja keskinäisriippuvaisuuden tuleminen osaksi hänen itsetietoisuutta ja maailmassa olemista. Osana ekoindividuaation prosessia ihminen tajuaa hänen minänsä ja ympäröivän maailman olevan erottamattomasti yhteydessä toisiinsa. (Keto ym., 2022, s. 57–58.) Aristotelisesti ajateltuna lapsia voidaan kasvattaa maailmasta vastuullisiksi antamalla heidän osallistua vastuulliseen toimintaan (Saukkonen & Moilanen, 2018, s. 13). Pelkkä toiminta ei kuitenkaan ole riittävää sinänsä, jos se tehdään vääristä syistä, esimerkiksi pakosta – kasvatettavien ymmärrystä hyvästä on siis myös lisättävä, jotta vastuullisesta toiminnasta tulee sisäsyntyistä (Saukkonen & Moilanen, 2018, s. 13). Edellä mainittu asettaa varhaiskasvatuksen opettajalle tietynlaisia hänen kasvuunsa liittyviä vaatimuksia, sillä pienet lapset oppivat kasvattajiltaan maailmassa olemisesta jatkuvasti mallintamalla heidän toimintaansa. Tästä syystä varhaiskasvatuksen opettajan tulisikin nähdäkseni pyrkiä kasvamaan aikamme ideologisen hegemonian ylittävien hyveiden ja ihmisideaalien ruumiillistumaksi, jotta hänen kasvatettavansa voivat tätä kestävää maailmassa olemisen tapaa hänen avullaan mallintaa.
+</p>
+<B>Lähteet</B></p>
+
+Childhood Education International (9.5.2017). OECD’s “Baby PISA” Early Learning Assessment. https://ceinternational1892.org/article/oecds-baby-pisa-early-learning-assessment/
+</p>
+Fröbel, F. (2014). Die Menschenerziehung – Ihmisten kasvatus (suom. Aili Helenius). Kirja Kerrallaan. (Alkuperäisteos julkaistu 1826) 
+</p>
+Huttunen, R. & Kakkori, L.  (2007). Aristoteles ja pedagoginen etiikka. Niin & näin, 1(2007), 87-94.
+</p>
+Keto, S., Foster, R., Pulkki, J., Salonen, A. & Värri, V-M. (2022). Ekososiaalinen kasvatus: Viisi teesiä ratkaisuehdotuksena antroposeenin ajan haasteeseen. Kasvatus & Aika, 16(3), 49-69.
+</p>
+Poulter, S., & Kylliäinen, A. (2023). Hyvekasvatus varhaiskasvatushenkilöstön kokemana. Journal of Early Childhood Education Research, 12(3), 119-144.
+</p>
+Pulkki, J. (2017). Kilpailun kasvatuksellisista ongelmista: Hyveitä 2000-luvulle. Tampere University Press.
+</p>
+Ripple, W. J., Wolf, C., Gregg, J. W., Rockström, J., Mann, M. E., Oreskes, N., … & Crowther, T. W. (2024). The 2024 state of the climate report: Perilous times on planet Earth. BioScience, 74(12), 812-824.
+</p>
+Saukkonen, S. & Moilanen, P. (2018). Kasvu ja kasvatus vastuuseen. Teoksessa Saukkonen, S. & Moilanen, P. (toim.), Vastuuseen kasvaminen ja kasvattaminen (s. 11–22). Suomen kasvatustieteellinen seura.
+</p>
+Skinnari, S. (2004). Pedagoginen rakkaus ja ihmisen idea aikuiskasvatuksen haasteina. Aikuiskasvatus, 24(2), 154-163.
+</p>
+Varhaiskasvatussuunnitelman perusteet (2022). Määräykset ja ohjeet 2022: 2a. Opetushallitus.
+</p>
+Värri, V-M. (2002a). <i>Hyvä kasvatus – kasvatus hyvään: Dialogisen kasvatuksen filosofinen tarkastelu erityisesti vanhemmuuden näkökulmasta</i> (4. p.). Tampere University Press.
+</p>
+Värri, V-M. (2018). Kasvatus ekokriisin aikakaudella. Vastapaino.
+</p>
+Värri, V-M. (2007). Kasvatusfilosofian tärkein tehtävä. Niin & näin, 1(2007), 70-73.
+</p>
+Värri, V-M. (2002b). Kasvatus ja ”ajan henki”: tulkintoja psykokapitalismin armottomuudesta. Aikuiskasvatus, 22(2), 92–104. https://doi.org/10.33336/aik.93405</p>
+    
+<img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3bTk0cWw1MGZ4YnZ4NHQ4MjN3Y2UxejV0bTBmYnhxY3V3ZmZ1c2k5cSZlcD12MV9zdGlja2Vyc19yZWxhdGVkJmN0PXM/SA6809R4uyd3vFswu3/giphy.gif" alt="joni" width="300" height="300"/>
+</main>
+
+    <footer>
+        <h3>Muita kirjoituksia</h3>
+        <ul>
+            <li><a href="post1.html">Varhaiskasvattaja lapsen turvallisen kiintymyssuhteen tukijana</a></li>
+            <li><a href="post3.html">Tasa-arvo ja yhdenvertaisuus yksityistyvässä varhaiskasvatuksessa</a></li>
+            <li><a href="post4.html">Ekososiaalinen kasvatus vastauksena antroposeenin haasteisiin</a></li>
+        </ul>
+        <a href="../index.html">← Etusivulle</a>
+        <p>&copy; 2025 Joni Joentakanen</p>
+        <br>
+        <br>
+    </footer>
+
+</body>
+</html>
