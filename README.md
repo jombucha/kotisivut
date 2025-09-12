@@ -1,4 +1,4 @@
-# Personal Education Website
+# Personal Blog Website
 
 This project is a personal website focused on educational writings. It includes a simple layout for blog posts and a navigation menu for easy access to the content.
 
