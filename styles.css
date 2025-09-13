@@ -22,6 +22,10 @@ main {
     text-align: justify;
  }
  
+p {
+    text-align: left;
+}
+ 
  body {
     background-color: #8ACE00;
     color: #111;
