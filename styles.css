@@ -19,7 +19,7 @@ html {
 
 main {
     font-family: arial 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: justify;
+    text-align: left;
  }
  
  
@@ -28,8 +28,6 @@ main {
     color: #111;
     max-width: 36em;
     font-family: arial 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-
  }
 
 
