@@ -19,7 +19,7 @@ html {
 
 main {
     font-family: arial 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: left;
+    text-align: justify;
  }
  
  
@@ -54,7 +54,7 @@ a:hover, a:focus, a:active {
 p {
     margin: 1em 0;
     line-height: 1.5;
-    text-align: justify;
+    text-align: left;
  }
 p code {
     background-color: #eee;
