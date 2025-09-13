@@ -14,15 +14,22 @@ html {
  }
 
  h2 {
-    text-align: left   ;
+    text-align: left;
  }
 
 main {
     font-family: arial 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: justify;
  }
  
- 
+.runo {
+    text-align: left;
+    white-space: pre-line; /* säilyttää rivinvaihdot runoissa */
+}
+
+.essee {
+    text-align: justify;
+}
+
  body {
     background-color: #8ACE00;
     color: #111;
@@ -54,7 +61,6 @@ a:hover, a:focus, a:active {
 p {
     margin: 1em 0;
     line-height: 1.5;
-    text-align: left;
  }
 p code {
     background-color: #eee;
