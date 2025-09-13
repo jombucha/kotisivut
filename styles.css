@@ -17,14 +17,15 @@ html {
     text-align: left   ;
  }
 
+p {
+    text-align: left;
+}
+
 main {
     font-family: arial 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: justify;
  }
  
-p {
-    text-align: left;
-}
  
  body {
     background-color: #8ACE00;
